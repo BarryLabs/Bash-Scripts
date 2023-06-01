@@ -5,7 +5,7 @@ sudo pacman -Syu
 # Sync the database, clean up orphanced packages and remove all extra configuration files.
 sleep 1
 sudo pacman -Scc -y
-#Clear the cashe.
+#Clear the cache.
 sleep 1
 paccache -r
 # Print message.
