@@ -1,5 +1,7 @@
 #!/Bin/Bash
 
+# A script I use to one-click update/clean the system.
+
 # Sync the database. 
 sudo pacman -Syu
 # Sync the database, clean up orphanced packages and remove all extra configuration files.
