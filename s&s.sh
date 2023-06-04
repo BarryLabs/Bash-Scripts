@@ -32,6 +32,9 @@ curl "$url" > webpage.html
 # Move the file to the directory hosted using python.
 mv webpage.html /var/www
 
+# Start the httpd.service service.
+sudo systemctl start httpd.service
+
 # Serve as webpage.
 python -m http.server -d /var/www -p 80
 
