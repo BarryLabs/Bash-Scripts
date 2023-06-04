@@ -1,6 +1,6 @@
 #!/Bin/Bash
 
-# A script I use to one-click update/clean the system.
+# A script one-click startup.
 
 # Sync the database. 
 sudo pacman -Syu
