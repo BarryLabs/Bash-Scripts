@@ -5,11 +5,11 @@
 # Sync the database. 
 sudo pacman -Syu
 # Sync the database, clean up orphanced packages and remove all extra configuration files.
-sleep 1
+wait
 sudo pacman -Scc -y
 #Clear the cache.
-sleep 1
+wait
 paccache -r
 # Print message.
-sleep 1
+wait
 echo "System has been updated, databases have been synced and caches have been cleared."
