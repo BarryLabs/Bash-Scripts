@@ -50,7 +50,6 @@ do
 			echo -n "Enter folder name: "
 			read dirname
 			cd $dirname
-			ls
 		;;
 		Q)
 			echo "Exiting..."
