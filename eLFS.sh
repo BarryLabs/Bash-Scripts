@@ -2,7 +2,7 @@
 
 # Check for appropriate script flags.
 if [ $# -eq 0 ]; then
-	echo "You must provide the..."
+	echo "You must provide -e/-d as the first flag, the path as the second and your password as the third."
 	exit 0
 fi
 
