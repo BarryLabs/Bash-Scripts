@@ -9,4 +9,6 @@ sudo pacman -Scc
 wait
 paccache -r
 wait
+sudo pacman -Rns $(pacman -Qdtq)
+wait
 echo "Update complete."
